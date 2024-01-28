@@ -1,0 +1,14 @@
+DEBUG:root:
+        Function: methodA
+        Execution Time: 2024-01-28 18:00:40.087679
+        Address: 2024-01-28 18:00:40.087627
+        Memory: 152
+        Date: 2024-01-28 18:00:40.087627
+        
+DEBUG:root:
+        Function: methodA
+        Execution Time: 2024-01-28 18:01:47.197964
+        Address: 2024-01-28 18:01:47.197898
+        Memory: 152
+        Date: 2024-01-28 18:01:47.197898
+        
