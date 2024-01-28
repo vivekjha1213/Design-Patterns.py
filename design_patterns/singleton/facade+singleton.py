@@ -56,7 +56,7 @@ class Facade(metaclass=Meta):
 
 if __name__ == "__main__":
     facade = Facade()
-    # facade.emergency()
-    # facade.no_emergency()
+    #facade.emergency()
+    #facade.no_emergency()
     facade1 = Facade()
     print(f"Printing Object: {facade1}")
