@@ -1,7 +1,8 @@
 from typing import Any
 
 class MetaClass(type):
-    """This is singleton design pattern."""
+    """This is singleton design pattern.
+    """
     
     _instance = {}
     
@@ -21,8 +22,12 @@ class A(metaclass = MetaClass ):
 
 #creating a obj
 
-a = A()
+obj = A()
+print(f"Creating object :{obj}")
 
-print(f"Creating object :{a}")
-    
-    
+#if already created instance it will return None.
+
+# Creating object :<__main__.A object at 0x105ef57d0>
+# Creating object 1 :None
+obj1 = A()
+print(f"Creating object 1 :{obj1}")
